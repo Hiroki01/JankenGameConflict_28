@@ -30,7 +30,6 @@ public class JankenView extends Application {
 		stage.setTitle("じゃんけんゲーム");
 		stage.setWidth(450);
 		stage.setHeight(300);
-
 		myLayout(stage);
 
 		stage.show();
