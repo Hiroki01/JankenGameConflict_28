@@ -10,7 +10,6 @@ public class JankenController {
      private  static final String[] hands = {
          "グー", "チョキ", "パー"
      };
-
       private Label cpuHandLabel;
       private Label myHandLabel;
       private Label resultLabel;
