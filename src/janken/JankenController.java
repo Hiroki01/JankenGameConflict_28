@@ -10,16 +10,18 @@ public class JankenController {
      private  static final String[] hands = {
          "グー", "チョキ", "パー"
      };
-      private int score = 0;
-      private int win = 0;
-      private int draw = 0;
-      private int lose = 0;
+
+     private int score = 0;
+     private int win = 0;
+     private int draw = 0;
+     private int lose = 0;
+
 
       private Label cpuHandLabel;
       private Label myHandLabel;
       private Label resultLabel;
       private Label scoreLabel;
-      //コンストラクタ
+
       //引数  3つのラベル
       public JankenController(Label cpuHandLabel, Label myHandLabel,
         Label resultLabel,Label scoreLabel){
